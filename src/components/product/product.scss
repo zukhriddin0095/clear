@@ -1,0 +1,47 @@
+.product__title {
+  margin-top: 100px;
+  margin-bottom: 16px;
+  color: #2c2d2e;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  .Sertificat {
+    color: #ef7c00;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+  }
+}
+
+.slick-next:before, .slick-prev:before {
+  color: #BFC1C7 !important;
+  font-size: 25px  !important;
+}
+.slick-dots li button:before {
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ef7c00;
+    border-radius: 50%;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #ef7c00;
+  }
+  .slick-dots li button:before {
+    color: transparent;
+  }

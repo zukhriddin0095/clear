@@ -1,0 +1,64 @@
+.tab {
+  margin-top: 100px;
+  h3 {
+    margin-bottom: 32px;
+    color: #2c2d2e;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  span {
+    color: #ef7c00;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+  }
+}
+
+.react-tabs__tab {
+ margin-bottom: 30px;
+}
+.react-tabs__tab-list {
+  border: none;
+  margin: 0 0 10px;
+  padding: 0;
+  a {
+    padding: 10px 20px;
+    border-radius: 61px;
+    border: 1px solid var(--color-border, rgba(0, 16, 61, 0.12));
+    color: var(--color-primary, #ef7c00);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px; /* 100% */
+  }
+}
+.react-tabs__tab--selected {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 61px;
+  background: #ef7c00;
+  color: aliceblue;
+  a {
+     padding: 10px 20px;
+    border-radius: 61px;
+    border: 1px solid var(--color-border, rgba(0, 16, 61, 0.12));
+    color: white;
+  }
+}
+
+.react-tabs__tab-panel--selected {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
